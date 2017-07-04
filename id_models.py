@@ -1,3 +1,8 @@
+"""
+This script builds individual models based on a single user for users with >=100 data samples. 
+The predictions for the remaining users with less than 100 samples are combined in a single model."""
+
+
 import load_data2
 import lightgbm as lgb
 import numpy as np
