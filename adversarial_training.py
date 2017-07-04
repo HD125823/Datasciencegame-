@@ -1,3 +1,7 @@
+"""The result of this script is the sorted training dataset by its probability of being most similar to the test data sample,
+in ascending order. As such, we can later slice a proportion of the training data set and use this as our validation set."""
+
+
 import pandas as pd
 import numpy as np
 import load_data
