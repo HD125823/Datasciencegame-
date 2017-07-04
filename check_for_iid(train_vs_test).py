@@ -1,3 +1,7 @@
+"""Evaluate if a classifier can distinguish between the training and test sample. If yes (high performance) then the 
+samples come from different distributions. """
+
+
 import pandas as pd
 import numpy as np
 import load_data
